@@ -22,6 +22,10 @@ user-select:none;
     flex-direction: column;
     justify-content: center;
     }
+    .box:hover{
+    background-color:#;
+    
+    }
     #input{
         
         
@@ -138,7 +142,7 @@ background-color:#444;
 }
 
 .equal{
-font-size:7vh;
+font-size:5vh;
 background-color:orangered;}
 
 .operation{background-color:#222;}
