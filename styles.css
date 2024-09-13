@@ -8,6 +8,7 @@
 }
 
 body{
+user-select:none;
     color:white;
 }
 #main{width:100vw;
@@ -41,8 +42,7 @@ body{
 border-radius: 30px;
     width:40vw;
     height:90vh;
-    background-color:#444;
-    border:1px solid black;
+    background-color:black;
     padding:10px;
     padding-left: 5vh;
     padding-top: 5vh;
@@ -89,8 +89,8 @@ background-color:#333;
 }
 
 #input{
-position:absolute;
-top:10vh;
+position:fixed;
+top:5vh;
 padding-right:5vw;
 display:flex;
 justify-content:right;
@@ -107,7 +107,7 @@ font-weight:bold;
 #card{
 padding-top:10vw;
 width:100vw;
-position:absolute;
+position:fixed;
 bottom:0;
 height:70vh;
 padding-left:2.5vw;
