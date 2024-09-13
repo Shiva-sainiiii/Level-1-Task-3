@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+body{
+    color:white;
+}
+#main{width:100vw;
+    height:100vh; 
+    position:relative;
+    background-color:#333;
+    display:flex;
+
+    align-items: center;
+    
+    flex-direction: column;
+    justify-content: center;
+    }
+    #input{
+        
+        
+        padding-right:5vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100vw;
+        height:20vh;
+        font-size:6vh;
+        color:white;
+        text-transform:uppercase;
+        font-weight:bold;
+        
+        }
+        
+#card{
+border-radius: 30px;
+    width:40vw;
+    height:90vh;
+    background-color:#444;
+    border:1px solid black;
+    padding:10px;
+    padding-left: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+display:flex;
+flex-direction:column;
+gap:3vw;
+justify-content:space-evenly;
+flex-wrap:wrap;
+}
+.box{
+    height:5vw;
+    width:5vw;
+    color:white;
+font-weight:bold;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:4vh;
+background-color:#333;
+
+
+border-radius:50%;}
+
+.equal{
+    font-size:7vh;
+    background-color:orangered;}
+    
+    .operation{background-color:#222;}
+    
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+
+#main{width:100vw;
+height:100vh; 
+position:relative;
+background-color:#333;
+}
+
+#input{
+position:absolute;
+top:10vh;
+padding-right:5vw;
+display:flex;
+justify-content:right;
+align-items:center;
+width:100vw;
+height:20vh;
+font-size:6vh;
+color:white;
+text-transform:uppercase;
+font-weight:bold;
+
+}
+
+#card{
+padding-top:10vw;
+width:100vw;
+position:absolute;
+bottom:0;
+height:70vh;
+padding-left:2.5vw;
+padding-right:2.5vw;
+padding-bottom:5vw;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+background-color:black;
+display:flex;
+flex-direction:column;
+gap:5vw;
+justify-content:space-evenly;
+flex-wrap:wrap;
+}
+
+
+.box{
+width:20vw;
+border-radius:50%;
+height:20vw;
+color:white;
+font-weight:bold;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:4vh;
+background-color:#444;
+}
+
+.equal{
+font-size:7vh;
+background-color:orangered;}
+
+.operation{background-color:#222;}
+  
+}
