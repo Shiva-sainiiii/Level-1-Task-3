@@ -1,4 +1,7 @@
 *Calculator App*
+
+![Game LayOut](calculator.jpg)
+
 Public Link:
 https://shiva-sainiiii.github.io/Level-1-Task-3/
 
